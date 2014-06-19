@@ -24,23 +24,28 @@
         android:layout_gravity="bottom"
         android:orientation="horizontal">
 
-        <ImageButton
+       <Button
             android:id="@+id/goback_bt"
-            android:layout_width="@dimen/land_history_bt_width"
-            android:layout_height="@dimen/land_history_bt_height"
+            android:layout_width="@dimen/port_history_bt_width"
+            android:layout_height="70dip"
             android:layout_weight="1"
-            android:background="@drawable/blue_button_selector"
-            android:src="@drawable/goback_his_land"
-            />
+            android:layout_gravity="bottom"
+			android:layout_marginBottom="5dip"
+            android:background="@drawable/yun_red"  
+            android:text="返回"         
+			android:textColor="#ffffff"            />
 
-        <ImageButton
+        <Button
             android:id="@+id/clear_bt"
-            android:layout_width="@dimen/land_history_bt_width"
-            android:layout_height="@dimen/land_history_bt_height"
-            android:layout_marginLeft="@dimen/land_history_bt_margin_left"
+            android:layout_width="@dimen/port_history_bt_width"
+            android:layout_height="70dip"
+            android:layout_marginLeft="@dimen/port_history_bt_margin_left"
             android:layout_weight="1"
-            android:background="@drawable/blue_button_selector"
-            android:src="@drawable/clear_his_land" />
+            android:layout_gravity="bottom"
+			android:layout_marginBottom="5dip"
+            android:background="@drawable/yun_dark"
+            android:textColor="#ffffff"
+            android:text="清除" />
     </LinearLayout>
 
 </LinearLayout>
