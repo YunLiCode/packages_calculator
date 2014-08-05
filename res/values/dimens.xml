@@ -60,8 +60,8 @@
     <dimen name="port_history_bt_height">66dp</dimen>
     <dimen name="port_history_bt_textsize">40dp</dimen>
     
-    <dimen name="port_history_expr_textsize">30dp</dimen>
-    <dimen name="port_history_result_textsize">48dp</dimen>
+    <dimen name="port_history_expr_textsize">20dp</dimen>
+    <dimen name="port_history_result_textsize">35dp</dimen>
     
     
     <dimen name="land_simple_pad_margin_right">14dp</dimen>

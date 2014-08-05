@@ -13,7 +13,7 @@
         android:gravity="right"
         android:singleLine="true"
         android:textColor="#4b4b4b"
-        android:textSize="@dimen/port_history_expr_textsize" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/historyResult"
@@ -23,6 +23,6 @@
         android:gravity="right"
         android:singleLine="true"
         android:textColor="#000000"
-        android:textSize="@dimen/port_history_result_textsize" />
+        android:textSize="30sp" />
 
 </LinearLayout>

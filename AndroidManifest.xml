@@ -17,6 +17,7 @@
             android:name="Calculator"
             android:theme="@android:style/Theme.Holo.NoActionBar"
             android:windowSoftInputMode="stateAlwaysHidden" 
+            android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +30,7 @@
         
         <activity
             android:name="HistoryActivity"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar"
             android:configChanges="orientation|keyboardHidden">
         </activity>
